@@ -10,6 +10,7 @@
 		BF1AB9F322378B3F005A1C48 /* pod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1AB9E922378B3F005A1C48 /* pod.framework */; };
 		BF1AB9F822378B3F005A1C48 /* podTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AB9F722378B3F005A1C48 /* podTests.swift */; };
 		BF1AB9FA22378B3F005A1C48 /* pod.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1AB9EC22378B3F005A1C48 /* pod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1ABA3E22378CA3005A1C48 /* PodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ABA3D22378CA3005A1C48 /* PodClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		BF1AB9F222378B3F005A1C48 /* podTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1AB9F722378B3F005A1C48 /* podTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podTests.swift; sourceTree = "<group>"; };
 		BF1AB9F922378B3F005A1C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1ABA3D22378CA3005A1C48 /* PodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				BF1AB9EC22378B3F005A1C48 /* pod.h */,
 				BF1AB9ED22378B3F005A1C48 /* Info.plist */,
+				BF1ABA3D22378CA3005A1C48 /* PodClass.swift */,
 			);
 			path = pod;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					BF1AB9E822378B3F005A1C48 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					BF1AB9F122378B3F005A1C48 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1ABA3E22378CA3005A1C48 /* PodClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		BF1AB9FE22378B3F005A1C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-th.pod";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		BF1AB9FF22378B3F005A1C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		BF1ABA0122378B3F005A1C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = podTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +415,7 @@
 		BF1ABA0222378B3F005A1C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = podTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
