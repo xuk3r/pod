@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   pod:
-    :commit: c4784b7e1e2a93ae558bc9818a3779f9cd76ecc2
+    :commit: d8960ef22871cf0914cc6a22ee53293c0c8615b0
     :git: https://github.com/xuk3r/pod.git
 
 SPEC CHECKSUMS:
-  pod: 45967da9c9a682c2feb881fa4551a542f079b7d0
+  pod: e4db0845aaa8408c09bde83b72ad6c1b090b86e6
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 

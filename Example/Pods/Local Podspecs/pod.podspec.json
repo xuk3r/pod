@@ -8,7 +8,7 @@
     "git": "https://github.com/xuk3r/pod.git",
     "tag": "0.0.1"
   },
-  "source_files": "pod/pod/*.{h,m}",
+  "source_files": "pod/pod/*.{h,m,swift}",
   "requires_arc": true,
   "platforms": {
     "ios": "10.0"
