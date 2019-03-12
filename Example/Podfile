@@ -6,7 +6,10 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-
+  pod 'pod', git: 'https://github.com/xuk3r/pod.git'
+  pod 'SDWebImage'
+  pod 'SnapKit', '~> 4.0.0'
+  
   target 'ExampleTests' do
     inherit! :search_paths
     # Pods for testing

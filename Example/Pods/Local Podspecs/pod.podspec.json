@@ -1,0 +1,20 @@
+{
+  "name": "pod",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "私人pod代码",
+  "homepage": "https://github.com/xuk3r",
+  "source": {
+    "git": "https://github.com/xuk3r/pod.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "pod/pod/*.{h,m}",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "authors": {
+    "xuk3r": "a4101823@qq.com"
+  },
+  "social_media_url": "http://qiubaiying.github.io"
+}
