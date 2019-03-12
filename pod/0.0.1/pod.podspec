@@ -6,7 +6,7 @@ s.summary      = "私人pod代码" # 项目简介
 
 s.homepage     = "https://github.com/xuk3r" # 仓库的主页
 s.source       = { :git => "https://github.com/xuk3r/pod.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
-s.source_files = "pod/pod/*.{h,m}"
+s.source_files = "pod/pod/*.{h,swift}"
 s.requires_arc = true # 是否启用ARC
 s.platform     = :ios, "10.0" #平台及支持的最低版本
 # s.frameworks   = "UIKit", "Foundation" #支持的框架
