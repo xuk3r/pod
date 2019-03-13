@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   pod:
-    :commit: d8960ef22871cf0914cc6a22ee53293c0c8615b0
+    :commit: 53b0bd89249e616f4c02eda89b2e1d9dedc84391
     :git: https://github.com/xuk3r/pod.git
 
 SPEC CHECKSUMS:

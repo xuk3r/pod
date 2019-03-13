@@ -8,7 +8,7 @@
 
 import UIKit
 import SnapKit
-import PodClass
+import pod
 
 class ViewController: UIViewController {
 
@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 //        UIView().snp.left
 //        PodClass.log();
+        PodClass.log();
     }
 }
 

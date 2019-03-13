@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PodClass: NSObject {
+open class PodClass: NSObject {
     open class func log(){
         print("PodClass")
     }
